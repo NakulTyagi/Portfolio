@@ -1,0 +1,111 @@
+body{
+/*   background-image: url(chess-2730034__340.jpg);*/
+      background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+    opacity: 0.8;
+    position: relative;
+
+}
+div{
+    
+}
+.home{
+    margin-top: 200px;
+    text-align: center;
+    color:black;
+
+}
+
+.about{
+    margin-top: 400px;
+   
+   background-color:dimgrey;
+    background-size: cover;
+    color: white;
+}
+.skills{
+    margin-top: 200px;
+}
+
+.experience{
+    margin-top: 200px;
+}
+.contact{
+    background-color: currentColor;
+    margin-top: 300px;
+    
+    
+}
+
+h1{
+    
+}
+.abo{
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.skill{
+    text-align: center;
+}
+.con{
+    text-align: center;
+    color: deeppink;
+}
+h2{
+    
+}
+.abo{
+    text-align: center;
+   
+}
+
+
+.exp{
+    text-align: center;
+}
+
+h4{
+    color: deeppink;
+    margin-left: 480px;
+}
+
+img{
+    
+}
+.img-circle{
+    margin-bottom: 50px;
+    margin-left: 450px;
+}
+.fb{
+    border-radius: 5px;
+}
+.insta{
+     border-radius: 5px;
+}
+.hom{
+    border-radius:50px; 
+}
+
+a{
+   
+}
+.mail{
+    color: deeppink;
+   margin-left: 500px;
+    margin-bottom: 200px;
+}
+.fb{
+    margin-left: 250px
+}
+    
+.insta{
+    margin-left: 10px
+}
+#home{
+    color: deeppink;
+}
+
+
+    
