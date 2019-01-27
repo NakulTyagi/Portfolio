@@ -1,8 +1,8 @@
 body{
-/*   background-image: url(chess-2730034__340.jpg);*/
-      background-position: center;
+/*background-image: url(images/man-3915438_960_720.jpg);*/
+    background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size:cover;
     opacity: 0.8;
     position: relative;
 
@@ -11,16 +11,18 @@ div{
     
 }
 .home{
+    
     margin-top: 200px;
     text-align: center;
     color:black;
+    font-family: 'Bangers', cursive;
 
 }
 
 .about{
     margin-top: 400px;
-   
-   background-color:dimgrey;
+   box-shadow: 0 2px 2px #ccc;
+   background-image: url(smoke-376543_1280.jpg);
     background-size: cover;
     color: white;
 }
@@ -68,7 +70,7 @@ h2{
 
 h4{
     color: deeppink;
-    margin-left: 480px;
+    margin-left: 590px;
 }
 
 img{
@@ -76,7 +78,7 @@ img{
 }
 .img-circle{
     margin-bottom: 50px;
-    margin-left: 450px;
+    margin-left: 570px;
 }
 .fb{
     border-radius: 5px;
@@ -93,17 +95,20 @@ a{
 }
 .mail{
     color: deeppink;
-   margin-left: 500px;
+   margin-left: 620px;
     margin-bottom: 200px;
 }
 .fb{
-    margin-left: 250px
+    margin-left: 330px
 }
     
 .insta{
     margin-left: 10px
 }
 #home{
+    color: deeppink;
+}
+#contact{
     color: deeppink;
 }
 
