@@ -1,5 +1,7 @@
 body{
-/*background-image: url(images/man-3915438_960_720.jpg);*/
+
+    margin: 0;
+    padding: 0;
     background-position: center;
   background-repeat: no-repeat;
   background-size:cover;
@@ -14,27 +16,31 @@ div{
     
     margin-top: 200px;
     text-align: center;
-    color:black;
+    color:greenyellow;
     font-family: 'Bangers', cursive;
 
 }
 
 .about{
-    margin-top: 400px;
+    margin-top: 200px;
    box-shadow: 0 2px 2px #ccc;
-   background-image: url(smoke-376543_1280.jpg);
+
+/*   background-image: url(images/smoke-376543_1280.jpg);*/
     background-size: cover;
-    color: white;
+    color: black;
 }
 .skills{
     margin-top: 200px;
+     box-shadow: 0 2px 2px #ccc;
 }
 
 .experience{
     margin-top: 200px;
+     box-shadow: 0 2px 2px #ccc;
 }
 .contact{
-    background-color: currentColor;
+    background-color:#262626;
+     box-shadow: 0 2px 2px #ccc;
     margin-top: 300px;
     
     
@@ -112,5 +118,13 @@ a{
     color: deeppink;
 }
 
-
+#particles-js{
+    margin: 0;
+    padding: 0;
+    height: 400%;
+    background: #262626;
+}
+#view{
+    color: black;
+}
     
