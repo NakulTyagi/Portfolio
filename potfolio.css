@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 body{
 
     margin: 0;
@@ -12,6 +15,13 @@ body{
 div{
     
 }
+.carousel-inner{
+    height: 500px;
+    
+}
+#header{
+    margin-top: 200px;
+}
 .home{
     
     margin-top: 200px;
@@ -22,7 +32,7 @@ div{
 }
 
 .about{
-    margin-top: 200px;
+    margin-top: 300px;
    box-shadow: 0 2px 2px #ccc;
 
 /*   background-image: url(images/smoke-376543_1280.jpg);*/
@@ -30,12 +40,12 @@ div{
     color: black;
 }
 .skills{
-    margin-top: 200px;
+    margin-top: 400px;
      box-shadow: 0 2px 2px #ccc;
 }
 
 .experience{
-    margin-top: 200px;
+    margin-top: 400px;
      box-shadow: 0 2px 2px #ccc;
 }
 .contact{
@@ -47,36 +57,41 @@ div{
 }
 
 h1{
-    
+    text-decoration-line: underline
 }
 .abo{
-    margin-top: 100px;
+    margin-top: 300px;
     text-align: center;
     margin-bottom: 100px;
+    color: darkcyan;
 }
 .skill{
     text-align: center;
+    color: darkcyan;
 }
+
 .con{
     text-align: center;
-    color: deeppink;
+    color: greenyellow;
 }
 h2{
     
 }
-.abo{
+.abot{
     text-align: center;
-   
+    color: black;
 }
 
 
 .exp{
+    color: darkcyan;
     text-align: center;
+     text-decoration-line: underline;
 }
 
 h4{
-    color: deeppink;
-    margin-left: 590px;
+    color: greenyellow;
+    margin-left: 650px;
 }
 
 img{
@@ -84,7 +99,7 @@ img{
 }
 .img-circle{
     margin-bottom: 50px;
-    margin-left: 570px;
+    margin-left: 620px;
 }
 .fb{
     border-radius: 5px;
@@ -97,11 +112,11 @@ img{
 }
 
 a{
-   
+   align-content: center;
 }
 .mail{
-    color: deeppink;
-   margin-left: 620px;
+    color: greenyellow;
+   margin-left: 670px;
     margin-bottom: 200px;
 }
 .fb{
@@ -112,10 +127,12 @@ a{
     margin-left: 10px
 }
 #home{
-    color: deeppink;
+/*     margin-top: 100px;*/
+    color:greenyellow;
 }
 #contact{
-    color: deeppink;
+     margin-top: 100px;
+    color:greenyellow;
 }
 
 #particles-js{
@@ -127,4 +144,15 @@ a{
 #view{
     color: black;
 }
-    
+.item{
+    align-content: center;
+    position: inherit;
+    height: 500px;
+   
+        
+}
+#projects{
+    text-align: center;
+    margin-top: 100px;
+     box-shadow: 0 2px 2px #ccc;
+}
