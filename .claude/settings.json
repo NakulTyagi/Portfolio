@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(open /Users/nakultyagi/Documents/Portfolio/index.html)",
+      "WebSearch",
+      "Bash(cp -r /Users/nakultyagi/Documents/Portfolio/images /Users/nakultyagi/Documents/Portfolio/public)",
+      "Bash(cp /Users/nakultyagi/Documents/Portfolio/images/* /Users/nakultyagi/Documents/Portfolio/public/images/)",
+      "Bash(npm install)",
+      "Bash(npm run build)",
+      "Bash(open http://localhost:3002)",
+      "WebFetch(domain:www.adhamdannaway.com)",
+      "Bash(open http://localhost:3000)",
+      "Bash(open http://localhost:3001)",
+      "Bash(/Users/nakultyagi/Documents/Portfolio/components/Footer.tsx:*)",
+      "Bash(pkill -f \"next dev\")",
+      "Read(//Users/nakultyagi/Downloads/**)",
+      "Read(//Users/nakultyagi/Desktop/**)",
+      "Bash(xargs ls -t)",
+      "Bash(ls ~/Desktop/nt_img*)",
+      "Bash(/Users/nakultyagi/Documents/Portfolio/tailwind.config.ts:*)",
+      "Bash(__NEW_LINE_d81408ae5fcee1ff__ cat)",
+      "Bash(lsof -i :3000 -i :8080 -i :5000 -i :4000)",
+      "Bash(npm run dev)",
+      "Bash(ls /Users/nakultyagi/Desktop/cse* /Users/nakultyagi/Desktop/netflix*)"
+    ],
+    "additionalDirectories": [
+      "/Users/nakultyagi/Desktop"
+    ]
+  }
+}
