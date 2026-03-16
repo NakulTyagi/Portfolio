@@ -2,12 +2,14 @@
 import { motion } from 'framer-motion'
 import Image from 'next/image'
 
+const BASE = process.env.NEXT_PUBLIC_BASE_PATH || ''
+
 const projects = [
   {
     title: 'Claude Super Engineer',
     category: 'AI · Developer Tool',
     desc: 'AI-powered GitHub repo analyzer providing code surgery, architecture reviews, automated refactoring, and feature suggestions.',
-    image: '/images/cse.png',
+    image: `${BASE}/images/cse.png`,
     fallbackBg: 'linear-gradient(135deg, #1a0f2e 0%, #0d1117 100%)',
     fallbackEmoji: '🤖',
     accent: '#9b7fff',
@@ -21,7 +23,7 @@ const projects = [
     title: 'Coding Ninjas Studio',
     category: 'EdTech · Web + Mobile',
     desc: 'Co-created the e-learning platform from zero to 2.5M users. Interview prep, DSA, competitive programming across web and mobile.',
-    image: '/images/cn-2.png',
+    image: `${BASE}/images/cn-2.png`,
     fallbackBg: 'linear-gradient(135deg, #1a0a05 0%, #0d1117 100%)',
     fallbackEmoji: '🎓',
     accent: '#ff6b35',
@@ -34,7 +36,7 @@ const projects = [
     title: 'Netflix Replica',
     category: 'Frontend · UI Clone',
     desc: 'A pixel-perfect Netflix UI clone exploring streaming platform architecture with curated movie/show browsing and modern state management.',
-    image: '/images/netflix-project.png',
+    image: `${BASE}/images/netflix-project.png`,
     fallbackBg: 'linear-gradient(135deg, #1a0003 0%, #0d1117 100%)',
     fallbackEmoji: '🎬',
     accent: '#4f9eff',

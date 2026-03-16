@@ -121,7 +121,7 @@ export default function Hero() {
           <div className="relative">
             <div className="absolute inset-0 rounded-2xl" style={{ background: 'linear-gradient(135deg,rgba(79,158,255,0.15),rgba(155,127,255,0.1))', transform: 'translate(8px,8px)' }} />
             <div className="relative w-72 h-80 rounded-2xl overflow-hidden border border-white/[0.06]">
-              <Image src="/images/nakul_pic.png" alt="Nakul Tyagi" fill className="object-cover object-top" priority />
+              <Image src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/nakul_pic.png`} alt="Nakul Tyagi" fill className="object-cover object-top" priority />
             </div>
           </div>
         </motion.div>

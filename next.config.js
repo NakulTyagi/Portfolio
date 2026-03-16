@@ -1,8 +1,10 @@
 /** @type {import('next').NextConfig} */
+const BASE_PATH = process.env.NEXT_PUBLIC_BASE_PATH || ''
+
 const nextConfig = {
   output: 'export',
-  basePath: '/Portfolio',
-  assetPrefix: '/Portfolio',
+  basePath: BASE_PATH,
+  assetPrefix: BASE_PATH,
   images: {
     unoptimized: true,
     remotePatterns: [

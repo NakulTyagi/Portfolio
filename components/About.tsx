@@ -46,7 +46,7 @@ export default function About() {
             <div className="relative rounded-2xl overflow-hidden aspect-[4/5] border border-white/[0.07]"
               style={{ boxShadow: '0 0 60px rgba(79,158,255,0.1)' }}>
               <Image
-                src="/images/nakul_pic.png"
+                src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/images/nakul_pic.png`}
                 alt="Nakul Tyagi"
                 fill
                 className="object-cover object-top"
